@@ -81,9 +81,9 @@ onload=function(){
                         const interim_0 = Object.entries(data);
                         interim_1 = interim_0[3];
                         interim_2 = interim_1[1];
-                        var text = interim_2[Math.floor(Math.random() * interim_2.length)].text;
-                        console.log(text);
-                        var year = interim_2[Math.floor(Math.random() * interim_2.length)].year;
+                        var element = interim_2[Math.floor(Math.random() * interim_2.length)];
+                        var year = element.year;
+                        var text = element.text;
                         var footer = document.getElementById("footer_0");
                         footer.innerHTML = "On this day in "+year+", "+text;
                     })
