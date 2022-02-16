@@ -57,7 +57,7 @@ onload=function(){
         async function getapi(url){   
             const response = await fetch(url);
             var data = await response.json();
-            var footer = document.getElementById("footer_1");
+            var footer = document.getElementById("footer_0");
             footer.innerHTML = data.en+"\n - "+data.author+"\n";    
         }
         getapi(api_url);
@@ -84,7 +84,7 @@ onload=function(){
                         var element = interim_2[Math.floor(Math.random() * interim_2.length)];
                         var year = element.year;
                         var text = element.text;
-                        var footer = document.getElementById("footer_0");
+                        var footer = document.getElementById("footer_1");
                         footer.innerHTML = "On this day in "+year+", "+text;
                     })
             })
