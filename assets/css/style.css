@@ -74,14 +74,14 @@ h1{
     flex-direction: column;
     display: flex;
     width: 15%;
-    background-color: #d9b08c;    
+    background-image: linear-gradient(to left, #116466 , #2c3531);   
 }
 #api_selection{
     flex-direction: column;
     display: flex;
     width: 100%;  
     padding-bottom: 10px;  
-    background-color: #d9b08c;
+    background-image: linear-gradient(to left, #116466 , #2c3531);
 }
 .api_selector{
     margin: 20px;
@@ -93,8 +93,7 @@ h1{
 #send_area{
     display: flex;
     align-items: center;
-    background-color: #d9b08c;
-}
+    background-image: linear-gradient(to left, #116466 , #2c3531);}
 #send_button{
     height: 30px;
     width: 100px;
