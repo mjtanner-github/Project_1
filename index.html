@@ -1,0 +1,143 @@
+<!--Index.html-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Info Email Footer</title>
+        <!--<link rel="stylesheet" href="./assets/css/style.css">
+        <script src="./assets/js/moment.js"></script>-->
+        <style>
+            h1{
+                text-align: center;
+            }
+            #user_area{
+                display: flex;
+                border-style: solid;
+                height:700px;
+                width: 100%;
+            }
+            #address_and_message_area{
+                flex-direction: column;
+                display: flex;
+                width: 85%;
+                height: 100%;
+                border-style: solid;
+            } 
+            #address_area{
+                flex-direction: column;
+                display: flex;
+                justify-content: space-between;
+                border-style: solid;
+                height: 30%;
+                padding: 10px;
+            }
+            #address{
+                border-style: solid;
+                height: 30px;
+                margin: 10px;
+                padding: 5px
+            }
+            #subject{
+                border-style: solid;
+                height: 30px;
+                margin: 10px;
+                padding: 5px
+            }
+            #message{
+                width: 90%;
+                height: 50%;
+                border-style: solid;
+                margin: 30px 0 0 0;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 5px;
+                overflow-y:scroll;
+            }
+            .footer{
+                width: 90%;
+                height: 10%;
+                border-style: solid; 
+                margin-left: auto;
+                margin-right: auto;
+                padding: 5px;
+                font-size:x-small;
+            }
+            #footer_1{
+                margin-bottom: 20px;
+            }
+            #api_send_column{
+                flex-direction: column;
+                display: flex;
+                border-style: solid;
+                width: 15%;    
+            }
+            #api_selection{
+                flex-direction: column;
+                display: flex;
+                border-style: solid;
+                width: 100%;  
+                padding-bottom: 10px;  
+            }
+            .api_selector{
+                margin: 20px;
+                height: 30px;
+                width: 80%;
+                border-style: solid;
+                margin-left: auto;
+                margin-right: auto;  
+            }
+            #send_area{
+                display: flex;
+                align-items: center;
+            }
+            #send_button{
+                height: 30px;
+                width: 100px;
+                margin-top: 40px;
+                border-style: solid;
+                margin-left: auto;
+                margin-right: auto;      
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Random Info Email Footer</h1>
+        </header>
+        <div id="user_area">
+            <div id="address_and_message_area">
+                <div id="address_area">
+                    <div>&emsp; Email</div>
+                    <div id = address contenteditable="true"></div>
+                    <div>&emsp; Subject</div>
+                    <div id = subject contenteditable="true"></div>
+                </div>
+                <div id="message" contenteditable="true"></div>
+                <div class = footer id="footer_0"></div>
+                <div class = footer id="footer_1"></div>
+            </div>
+            <div id = "api_send_column">
+                <div id = "api_selection">
+                    <div id="api_0" onChange="processCheck_0()" class="api_selector">
+                        <input type="checkbox" id="checkbox_0">
+                        Random Quotation
+                    </div>
+                    <div id="api_1" onChange="processCheck_1()" class="api_selector">
+                        <input type="checkbox" id="checkbox_1">
+                        This Day in History 
+                    </div>
+                    <div id="api_2" class="api_selector">
+                        <input type="checkbox" id="checkbox_2">
+                        api 3 
+                    </div>
+                </div>
+                <div id = "send_area">
+                    <button id="send_button">Send</button>
+                </div>
+            </div>
+        </div>
+        
+        <script src="./assets/js/script.js"></script>  
+    </body>
+</html>
