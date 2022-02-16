@@ -11,7 +11,7 @@ h1{
 
 #user_area{
     display: flex;
-    height:700px;
+    height:800px;
     width: 100%;
 }
 .label, #api_0, #api_1, #api_2{
