@@ -58,7 +58,7 @@ onload=function(){
             const response = await fetch(url);
             var data = await response.json();
             var footer = document.getElementById("footer_1");
-            footer.innerHTML = data.en+"<br> - "+data.author+"<br>";    
+            footer.innerHTML = data.en+"\n - "+data.author+"\n";    
         }
         getapi(api_url);
     }
