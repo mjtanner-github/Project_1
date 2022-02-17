@@ -22,6 +22,8 @@ onload=function(){
         var footer_0 = document.getElementById("footer_0");
         var footer_1 = document.getElementById("footer_1");
         var email_string="mailto:"+address.innerText+"?subject="+subject.innerText+"&body="+message.innerText+"%0D%0A%0D%0A"+footer_0.innerText+"%0D%0A%0D%0A"+footer_1.innerText;
+        var date = new Date();
+        localStorage.setItem("random_info_email_footer_"+date.getTime(),email_string);
         window = window.open(email_string, 'emailWindow');
         window.close();
     });     
