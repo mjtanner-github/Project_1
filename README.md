@@ -1,4 +1,4 @@
-# Proect 1: Email Random Info Footer
+# Project 1: Email Random Info Footer
 ### User’s Story: The user wants to make their emails more interesting to garner closer reader attention despite sometimes mondaine content. To do this, we use API’s to place random quotations and historical factoids in the footer. 
 ### Minimum Acceptance Criteria: 
 #### WHEN the user checks the box associated with a type of footer content, 
