@@ -20,7 +20,7 @@
 ##### 4. Left margin user operation area
 ###### a. Footer content selection area
 ###### b. Email send button
-!["Email Random Info Footer USer Interface"](./assets/images/fig_1.png "Email Random Info Footer USer Interface")
+!["Email Random Info Footer User Interface"](./assets/images/fig_1.png "Email Random Info Footer USer Interface")
 #### B. Function
 ##### 1. API interface funtion
 ###### a. Assemble URL
