@@ -20,12 +20,12 @@
 ##### 4. Left margin user operation area
 ###### a. Footer content selection area
 ###### b. Email send button
-!["Email Random Info Footer User Interface"](./assets/images/fig_1.png "Email Random Info Footer USer Interface")
+!["Email Random Info Footer User Interface"](./assets/images/fig_1.jpg "Email Random Info Footer USer Interface")
 #### B. Function
 ##### 1. API interface funtion
 ###### a. Assemble URL
 ###### b. Error check call status
 ###### c. If response is good, process text. Otherwise bail.
 ##### 2. mailTo call to open user default email application.
-!["Populated Default User Email Application"](./assets/images/fig_2.png "Populated Default User Email Application")
+!["Populated Default User Email Application"](./assets/images/fig_2.jpg "Populated Default User Email Application")
 ##### 3. Save email string to localStorage. 
